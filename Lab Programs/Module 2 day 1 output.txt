@@ -1,9 +1,0 @@
-1 20221lcs0021 A 100
-2 20221lca0001 B 90
-3 20221lcs0008 P 95
-4 20221lcs0020 K 80
-5 20221lcs0025 U 50
-
-
-
-Save this file and link the location in java program 
