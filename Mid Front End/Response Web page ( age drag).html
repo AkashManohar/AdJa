@@ -1,0 +1,43 @@
+/* To design a web page*/</br>
+<html
+    <head>
+        <title> Web Form 2.0</title>
+    </head>
+    <body>
+        <center> Presidency software solutions Pvt. Ltd</center>
+        </br>
+        <form>
+        <label for="fname"> Fname</label></body>
+        <input type="text" id="fname"></br>
+        <label for="Lname"> Lname</label>
+        <input type="text" id="Lname"></br>
+
+        <label for="dob"> DOB</label>
+        <input type="date" id="dob"></br>
+
+        <label for="Age"> Age</label>
+        <input type="range" id="Age" name="age" min="18" max="100" oninput="updateAge(this.value)"></br>
+
+        <label for="phone"> Phone Number</label>
+        <input type="number" id="phone"></br>
+
+        <label for="email"> E-Mail</label>
+        <input type="text" id="email"></br>
+        </br>
+        <button type="submit">Sign-Up</button>
+         </form>
+         <script>
+            function updateAge(value) {
+                document.getElementById('ageDisplay').innerText = value;
+            }
+        </script>
+        
+        <!-- Display the age value -->
+        <div>
+            <p>Current age: <span id="ageDisplay">18</span></p>
+            <input type="range" min="18" max="100" value="18" oninput="updateAge(this.value)">
+        </div>
+        
+         
+    </body>
+</html>
